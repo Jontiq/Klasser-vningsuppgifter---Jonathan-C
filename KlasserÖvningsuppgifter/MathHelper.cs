@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KlasserÖvningsuppgifter
 {
-    internal class MathHelper
+    internal static class MathHelper
     {
         //Properties
         public int Number1 { get; set; }

@@ -12,6 +12,8 @@
 
             //movie1.PrintMovieInfo();
 
+            MathHelper matte = new MathHelper(5, 7);
+
             Console.WriteLine(MathHelper.Add(10, 15));
             Console.WriteLine(MathHelper.Subtract(10, 15));
             Console.WriteLine(MathHelper.Multiply(10, 15));
