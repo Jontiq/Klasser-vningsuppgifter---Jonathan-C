@@ -53,15 +53,13 @@ namespace KlasserÖvningsuppgifter
         }
 
         //Konstruktör
-        public Employee(string name, int age, decimal salary)
+        public Employee(string Name, int Age, decimal Salary)
         {
-            Name = name;
-            Age = age;
-            Salary = salary;
+            this.Name = Name;
+            this.Age = Age;
+            this.Salary = Salary;
         }
-
         //Metoder
-
         public void DisplayEmployeeInfo()
         {
             Console.WriteLine($"Name: {Name}, Age: {Age}, Salary: {Salary:C}");
