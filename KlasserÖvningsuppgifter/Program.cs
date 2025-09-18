@@ -17,7 +17,6 @@
             Console.WriteLine(MathHelper.Multiply(10, 15));
             Console.WriteLine(MathHelper.Divide(10, 15));
 
-
         }
     }
 }

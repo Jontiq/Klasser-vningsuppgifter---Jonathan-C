@@ -8,18 +8,6 @@ namespace KlasserÖvningsuppgifter
 {
     internal static class MathHelper
     {
-        //Properties
-        public int Number1 { get; set; }
-        public int Number2 { get; set; }
-
-
-        //Konstruktör
-        public MathHelper(int Number1, int Number2)
-        {
-            this.Number1 = Number1;
-            this.Number2 = Number2;
-        }
-
         //Metoder
         public static int Add(int a, int b)
         {
