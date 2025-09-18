@@ -4,13 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Employee worker1 = new Employee("Alice", 30, 50000m);
+            //Employee worker1 = new Employee("Alice", 30, 50000m);
 
-            worker1.DisplayEmployeeInfo();
+            //worker1.DisplayEmployeeInfo();
 
-            Movie movie1 = new Movie("Inception", "Christopher Nolan", 7);
+            //Movie movie1 = new Movie("Inception", "Christopher Nolan", 7);
 
-            movie1.PrintMovieInfo();
+            //movie1.PrintMovieInfo();
+
+            Console.WriteLine(MathHelper.Add(10, 15));
+            Console.WriteLine(MathHelper.Subtract(10, 15));
+            Console.WriteLine(MathHelper.Multiply(10, 15));
+            Console.WriteLine(MathHelper.Divide(10, 15));
+
 
         }
     }
